@@ -64,3 +64,16 @@ list_of_numbers2 = [-2, -1, 0, 2, 6, 9, 7]
 
 list_of_numbers2.reverse()
 print(list_of_numbers2)
+
+a_string = "This is a string"
+a= len(a_string) - 1
+b_string = ""
+while  a >= 0:
+    b_string = b_string + a_string[a]
+    a -= 1
+
+print(b_string)
+
+    
+
+        
